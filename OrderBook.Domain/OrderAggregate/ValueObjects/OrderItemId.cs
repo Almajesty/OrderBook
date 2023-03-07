@@ -1,5 +1,11 @@
-﻿namespace OrderBook.Domain.OrderAggregate.ValueObjects;
+﻿using OrderBook.Domain.Common.Models;
 
-internal class OrderItemId
+namespace OrderBook.Domain.OrderAggregate.ValObjects;
+
+public class OrderItemId : ValueObject
 {
+    public override IEnumerable<object> GetEqualityComponents()
+    {
+        throw new NotImplementedException();
+    }
 }

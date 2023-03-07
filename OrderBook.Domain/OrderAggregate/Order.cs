@@ -1,6 +1,6 @@
 ﻿using OrderBook.Domain.Common.Models;
 using OrderBook.Domain.OrderAggregate.Entities;
-using OrderBook.Domain.OrderAggregate.ValueObjects;
+using OrderBook.Domain.OrderAggregate.ValObjects;
 
 namespace OrderBook.Domain.OrderAggregate;
 
